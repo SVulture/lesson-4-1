@@ -113,13 +113,14 @@ section {
     width: var(--WIDTH-BASE);
     height: 323px;
     background-image: url('img/background_image.jpg');
+    filter: brightness(30%);
     background-size: cover;
     background-position: center;
     margin-top: 105px;
     font-family: 'Raleway', sans-serif;
     color: #fff;
     background-color: black;
-    filter: brightness(30%);
+    
 }
 
 .bottom__title {
@@ -374,6 +375,7 @@ nav a {
     height: 54px;
     margin-top: 50px;
     color: white;
+    border: none;
 }
 
 
@@ -441,6 +443,7 @@ nav a {
     font-size: 1.02rem;
     margin-top: 2em;
     margin-bottom: 4.5em;
+    border: none;
 }
 
 .transit-effect__image {
@@ -681,6 +684,7 @@ nav a {
     color: white;
     font-size: 1.02rem;
     margin: 0 auto;
+    border: none;
 }
 
 /* FOOTER */
